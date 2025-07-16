@@ -18,6 +18,11 @@ ul {
     gap: 16px;
 }
 
+img {
+    height: 300px;
+    width: 700px;
+}
+
 .first {
     display: flex;
     flex-direction: column;
@@ -33,13 +38,33 @@ ul {
     align-items: center;
 }
 
-.initial_content {
-    display: flex;
-}
-
 .logo {
     display: flex;
     color: white;
     font-size: 28px;
     font-weight: bold;
 }
+
+.title, .text, .sign_up {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.sign_up {
+    background-color: #3882f6;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
