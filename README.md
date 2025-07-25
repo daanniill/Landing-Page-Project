@@ -13,9 +13,3 @@ This project is a simple, responsive web page layout designed using **HTML** and
 
 - HTML5
 - CSS3 (Flexbox)
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/flexbox-webpage.git
