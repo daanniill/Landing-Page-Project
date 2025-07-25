@@ -37,12 +37,12 @@ img {
     width: 700px;
 }
 
-.first, .second, .third, .fourth{
+.first, .second, .third, .fourth, .footer{
     display: flex;
     flex-direction: column;
 }
 
-.first {
+.first, .footer{
     background-color: #1F2937;
 }
 
@@ -171,4 +171,9 @@ img {
 .sign_up_container .sign_up {
     margin-bottom: 0;
     border: 2px solid white;
+}
+
+.copyright {
+    padding: 4%;
+    text-align: center;
 }
