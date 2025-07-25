@@ -37,7 +37,7 @@ img {
     width: 700px;
 }
 
-.first, .second, .third{
+.first, .second, .third, .fourth{
     display: flex;
     flex-direction: column;
 }
@@ -137,4 +137,38 @@ img {
     color: black;
     font-weight: bold;
     font-size: 18px;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 10% 20%;
+}
+
+.text .title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.text .subtext {
+    font-size: 15px;
+}
+
+.text, .sign_up_container {
+    padding: 5% 10%;
+}
+
+.call_to_action .sign_up_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+.sign_up_container .sign_up {
+    margin-bottom: 0;
+    border: 2px solid white;
 }
