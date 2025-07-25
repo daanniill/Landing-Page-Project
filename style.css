@@ -37,7 +37,7 @@ img {
     width: 700px;
 }
 
-.first, .second{
+.first, .second, .third{
     display: flex;
     flex-direction: column;
 }
@@ -48,6 +48,11 @@ img {
 
 .second {
     margin-bottom: 150px;
+}
+
+.third {
+    background-color: #E5E7EB;
+    padding: 10% 20%;
 }
 
 .header, .initial_content{
@@ -120,4 +125,16 @@ img {
     margin-bottom: 15px;
 }
 
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
 
+.name {
+    display: flex;
+    justify-content: right;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
